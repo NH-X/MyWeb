@@ -3,3 +3,22 @@ h1{
     color: aquamarine;
     text-align: center;
 }
+
+.box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#profileImg{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px
+}
+
+#headTitle{
+    font-size: 50px;
+    color: red;
+}

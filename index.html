@@ -11,10 +11,19 @@
         
     </header>
     <body>
-        <h1 class="h1">This is my first website</h1>
-        <h2 style="font-size: 20px; color: red;">Red color</h2> 
-        <h3 style="font-size: 15px; color: black;">Black color</h3>
-        <h3>pull hook successful</h3>
-
+        <div id="app">
+            <div class="box">
+                <img src="https://avatars.githubusercontent.com/u/96586765?v=4" id="profileImg">
+                <span id="headTitle">{{ title }}</span>
+            </div>
+            <p>{{ author }}</p>
+            <p>likes: {{ like }}</p>
+            <p>{{ time }}</p>
+            <button @click="like++">count: {{ like }}</button>
+            <button @click="clearCountVal">clean</button>
+        </div>
+        <div>
+        </div>
+        <script src="./app/app.js"></script>
     </body>
 </html>
