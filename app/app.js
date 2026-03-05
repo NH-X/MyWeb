@@ -3,8 +3,8 @@ const app = Vue.createApp({
         return {
             title: 'Goods stocks',
             time: Date(),
-            author:  'Zachary',
-            like: 0
+            author:  'Zachary 001',
+            like: 0,
         }
     },
     methods: {
