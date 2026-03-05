@@ -4,6 +4,7 @@ const app = Vue.createApp({
             title: 'Goods stocks',
             time: Date(),
             author:  'Zachary 001',
+            testtext: 'This is test text',
             like: 0,
         }
     },
