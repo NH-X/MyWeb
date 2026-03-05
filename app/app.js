@@ -1,7 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
-            title: 'Zachary travel',
+            title: 'Goods stocks',
             time: Date(),
             author:  'Zachary',
             like: 0
